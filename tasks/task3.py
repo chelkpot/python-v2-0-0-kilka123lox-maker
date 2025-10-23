@@ -2,9 +2,9 @@
 
 def solve():
 # Ниже пишите решение задачи
- n = int(input())
- print(n // 100 + n % 100 // 20 + n % 20 // 10 + n % 10 // 5 + n % 5)
-
+    a,b = map(int, input().split())
+    total = a + b - 1
+    print(total - a, total - b)
 
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
